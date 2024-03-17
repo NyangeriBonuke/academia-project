@@ -3,7 +3,7 @@ const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 const { validationResult } = require('express-validator')
 require('dotenv').config()
-const { Kafka } = reuire('kafkajs')
+const { Kafka } = require('kafkajs')
 
 class UserController{
     constructor(){
